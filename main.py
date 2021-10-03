@@ -85,3 +85,5 @@ while running:
     player(playerX,playerY)
     show_location(textX,textY)
     pygame.display.update()
+
+#tested
