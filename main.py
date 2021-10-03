@@ -73,7 +73,7 @@ while running:
                 playerY_change = 0 #If either key is released, stop moving
 
     playerX += playerX_change#Update playerX variable value by the amount of the key pressed
-    playerY += playerY_change#Update playerX variable value by the amount of the key pressed
+    playerY += playerY_change#Update playerY variable value by the amount of the key pressed
 
 
 
