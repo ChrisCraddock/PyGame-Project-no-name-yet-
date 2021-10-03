@@ -1,6 +1,14 @@
 import pygame
 import math
 
+#Upper Left: 25 x 25
+#Lower Left: 25 x 775
+#Lower Right: 975 x 775
+#Upper Right: 975 x 25
+
+
+
+
 pygame.init() #Initialize
 
 #Create screen
