@@ -55,16 +55,20 @@ while running:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
                 playerX_change = -.1
-                locationx_value = str(round(playerX,2))
+                locationX_value = str(round(playerX,2)) #Display location coordinates
+                
             if event.key == pygame.K_RIGHT:
                 playerX_change = +.1
-                locationx_value = str(round(playerX,2))
+                locationX_value = str(round(playerX,2)) #Display location coordinates
+                
             if event.key == pygame.K_UP:
                 playerY_change = -.1
-                locationY_value = str(round(playerY,2))
+                locationY_value = str(round(playerY,2)) #Display location coordinates
+                
             if event.key == pygame.K_DOWN:
                 playerY_change = +.1
-                locationY_value = str(round(playerY,2))
+                locationY_value = str(round(playerY,2)) #Display location coordinates
+                
 
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_RIGHT or event.key == pygame.K_LEFT:
