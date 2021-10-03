@@ -55,16 +55,16 @@ while running:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
                 playerX_change = -.1
-                print("X: " + str(round(playerX,2)),"Y: " + str(round(playerY,2)))
+                locationx_value = str(round(playerX,2))
             if event.key == pygame.K_RIGHT:
                 playerX_change = +.1
-                print("X: " + str(round(playerX,2)),"Y: " + str(round(playerY,2)))
+                locationx_value = str(round(playerX,2))
             if event.key == pygame.K_UP:
                 playerY_change = -.1
-                print("X: " + str(round(playerX,2)),"Y: " + str(round(playerY,2)))
+                locationY_value = str(round(playerY,2))
             if event.key == pygame.K_DOWN:
                 playerY_change = +.1
-                print("X: " + str(round(playerX,2)),"Y: " + str(round(playerY,2)))
+                locationY_value = str(round(playerY,2))
 
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_RIGHT or event.key == pygame.K_LEFT:
@@ -73,7 +73,7 @@ while running:
                 playerY_change = 0 #If either key is released, stop moving
 
     playerX += playerX_change#Update playerX variable value by the amount of the key pressed
-    playerY += playerY_change#Update playerY variable value by the amount of the key pressed
+    playerY += playerY_change#Update playerX variable value by the amount of the key pressed
 
 
 
