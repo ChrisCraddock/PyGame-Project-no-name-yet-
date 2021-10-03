@@ -86,4 +86,4 @@ while running:
     show_location(textX,textY)
     pygame.display.update()
 
-#tested
+#Note to self: python main.py
